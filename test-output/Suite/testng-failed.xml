@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="email" value="local"/>
+  <test thread-count="5" parallel="classes" name="Test676(failed)">
+    <classes>
+      <class name="chapter4.CrossBrowser">
+        <methods>
+          <include name="logintoLetCode"/>
+        </methods>
+      </class> <!-- chapter4.CrossBrowser -->
+    </classes>
+  </test> <!-- Test676(failed) -->
+</suite> <!-- Failed suite [Suite] -->

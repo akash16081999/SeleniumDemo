@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+<parameter name="email" value="local"></parameter>
+<parameter name="pass" value="anbu"></parameter>
+
+  <test   name="Test">
+  
+    <classes>
+      <class name="chapter4.WindowHandle"/>
+       <!--<class name="chapter4.Buttons"/>-->
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test  name="Test676">
+    <classes>
+      <class name="chapter4.CrossBrowser"/>
+       <!--<class name="chapter4.Buttons"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
