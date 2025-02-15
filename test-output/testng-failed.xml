@@ -5,7 +5,7 @@
     <classes>
       <class name="chapter4.LearnDataProvider">
         <methods>
-          <include name="logintoLetCode" invocation-numbers="0 1 2"/>
+          <include name="logintoLetCode" invocation-numbers="1 2 0"/>
         </methods>
       </class> <!-- chapter4.LearnDataProvider -->
     </classes>

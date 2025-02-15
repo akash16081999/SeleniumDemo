@@ -22,7 +22,7 @@ public class LearnDataProvider {
 		driver.findElement(By.name("password")).sendKeys(pass);
 		driver.findElement(By.xpath("//button[.='LOGIN']")).click();
 		
-		driver.quit();
+		//driver.quit();
 
 	}
 }
